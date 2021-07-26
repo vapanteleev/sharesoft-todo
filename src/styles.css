@@ -1,1 +1,69 @@
-/* You can add global styles to this file, and also import other style files */
+li {
+  list-style: none;
+}
+
+.main {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.item {
+  box-sizing: border-box;
+  border: 2px solid rgb(42, 114, 223);
+  border-radius: 5px;
+  /* height: 80px; */
+  width: 500px;
+
+  margin: 4px;
+  text-align: center;
+}
+
+.check {
+  padding: 7px;
+  text-align: left;
+
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.inputForm {
+  display: block;
+}
+
+input {
+  width: 300px;
+}
+
+.item button {
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+}
+.item .pb-red {
+  margin: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+.header {
+  width: 500px;
+  margin-left: 45px;
+  box-sizing: border-box;
+  border: 2px solid rgb(42, 114, 223);
+  border-radius: 5px;
+
+  text-align: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.header button {
+  width: 70px;
+  margin-left: 30px;
+}
+
+.item:hover {
+  background-color: rgb(133, 200, 226);
+}
